@@ -4,7 +4,7 @@ Author : Vaibhav Yadav
 Git : https://github.com/smvaibhav/react-osdb
 Username : vaibhavydv
 LocalPath : /var/www/html/vaibhav/react/project/
-Node v : 12.0.0
+Node v : v12.0.0    || nvm use default v12.0.0
 npm : v6.9.0
 --------------------------------------------------
 > Listening in PORT 82 add in conf-file
@@ -19,6 +19,7 @@ npm : v6.9.0
     </Directory>
 </VirtualHost>
 
+http://localhost:82/
 
 Steps day by day
 ------------------
@@ -27,8 +28,21 @@ Step 1 : Create App using
 
 'npm init react-app my-app'
 
-Step 2 : go to app and start using npm start
+Step 2 : go to app dir 
 
+For start app >     npm start
+Create a production build >  npm run build
+
+The build folder is ready to be deployed.
+You may serve it with a static server:
+
+  npm install -g serve
+  serve -s build 
+
+Find out more about deployment here:
+https://bit.ly/CRA-deploy
+
+----------------------------------------------------
 
 
 
