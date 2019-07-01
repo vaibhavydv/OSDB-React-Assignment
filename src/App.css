@@ -31,3 +31,14 @@
     transform: rotate(360deg);
   }
 }
+
+.customHeader {
+	height: 81px;
+	width: 99%;
+	border: 1px solid #6849D7;
+  background-color: #6849D7;
+  color : #ffffff;
+}
+.customBody {
+  background-color: #282c34;
+}
