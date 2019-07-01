@@ -1,0 +1,52 @@
+OSDB React
+--------------------------------------------------
+Author : Vaibhav Yadav
+Git : https://github.com/smvaibhav/react-osdb
+Username : vaibhavydv
+LocalPath : /var/www/html/vaibhav/react/project/
+Node v : 12.0.0
+npm : v6.9.0
+--------------------------------------------------
+> Listening in PORT 82 add in conf-file
+  etc/apache2/sites-available/000-default.conf
+
+<VirtualHost *:82>
+    ServerName localhost:82
+    DocumentRoot /var/www/html/vaibhav/react/osdb-app/
+    <Directory /var/www/html/vaibhav/react/osdb-app/>
+        Options Indexes FollowSymLinks MultiViews
+        AllowOverride All
+    </Directory>
+</VirtualHost>
+
+
+Steps day by day
+------------------
+01/07/2019
+Step 1 : Create App using 
+
+'npm init react-app my-app'
+
+Step 2 : go to app and start using npm start
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Ref:
+https://facebook.github.io/create-react-app/docs/getting-started
