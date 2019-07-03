@@ -1,6 +1,75 @@
-.customHeader {
-	height: 81px;
-	width: 1920px;
-	border: 1px solid #6849D7;
-	background-color: #6849D7;
+.osdbMenu {
+    height: 81px;
+    width: 100%;
+    background-color: #6849D7;
+    color : #ffffff;
+	box-shadow: 0 2px 8px 0 rgba(0,0,0,0.2);
+	overflow: hidden;
+}
+.customLogo {
+    height: 33px;
+    width: 155px;
+    margin-top: 24px;
+    margin-left: 10.78%;
+}
+.osdbSearch {
+	width: 333px;
+	height: 39px;
+	display: inline-flex;
+    margin-top: 21px;
+	position: absolute;
+	margin-left: 4.48%;
+}
+.osdbSearch span {
+	position: absolute;
+    z-index: 1;
+    color: #6849D7;
+	margin-top: 10px;
+	margin-left: 12.21px;
+}
+.osdbSearch input {
+	border: 0px;
+    width: 300px;
+	padding-left: 31px;
+	color: #6849D7;
+	font-family: lato;
+}
+.osdbSearch ::placeholder {
+	color: #6849D7;
+	opacity: 1; /* Firefox */
+}
+  
+.osdbSearch :-ms-input-placeholder { 
+	/* Internet Explorer 10-11 */
+   color: #6849D7;
+}
+  
+.osdbSearch ::-ms-input-placeholder {
+	/* Microsoft Edge */
+   color: #6849D7;
+}
+.osdbNav{
+	position: absolute;
+    margin-top: 31px;
+    margin-left: 423px;
+    display: inline-flex;
+    
+}
+.osdbNav ul {
+	list-style-type: none;
+    margin: 0;
+    padding-left: 20px;
+    overflow: hidden;
+}
+.osdbNav ul li {
+	float: left;
+}
+.osdbNav ul li a {
+	color: #ffffff;
+    padding: 0 5px;
+	text-decoration: none;
+	font-family: lato;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: right;
 }
