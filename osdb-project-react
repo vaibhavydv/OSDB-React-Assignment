@@ -43,15 +43,12 @@ Find out more about deployment here:
 https://bit.ly/CRA-deploy
 
 ----------------------------------------------------
-
+npm uses
 React route
 React BootStrap
+https://react-bootstrap.github.io/getting-started/introduction
 
 
-npm uses
-
-npm install --save react-marquee
-react-marquee
 
 
 
