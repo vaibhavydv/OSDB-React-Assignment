@@ -48,7 +48,10 @@ React route
 React BootStrap
 
 
+npm uses
 
+npm install --save react-marquee
+react-marquee
 
 
 
