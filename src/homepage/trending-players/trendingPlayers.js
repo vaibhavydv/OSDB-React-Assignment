@@ -26,16 +26,44 @@ function TrendingPlayers() {
                      </div>
                  </div>
                  </Col>
-                 <Col sm={5}>
+                 <Col className="tpMain" sm={5}>
                  <div className="tpList">
                     <div className="tpHead"><p>TRENDING PLAYERS</p></div>
                         <div className="tpCard"> 
                             <img src={TpSmall} alt="OSDB"/>
                             <div>
-                                <div className="cardTitle"><h2>Aaron Rodgers</h2><h4>SOCCOR</h4></div>
+                                <div className="cardTitle"><h2>Aaron Rodgers</h2><h3>SOCCOR</h3></div>
                                 <p className="cardPera">Aaron Charles Rodgers (born December 2, 1983) is an American football quarterback for the Green Bay Packers…</p>
                             </div> 
                         </div>
+                            <div className="tpCard">
+                                <img src={TpSmall} alt="OSDB" />
+                                <div>
+                                    <div className="cardTitle"><h2>Aaron Rodgers</h2><h3>SOCCOR</h3></div>
+                                    <p className="cardPera">Aaron Charles Rodgers (born December 2, 1983) is an American football quarterback for the Green Bay Packers…</p>
+                                </div>
+                        </div>
+                            <div className="tpCard">
+                                <img src={TpSmall} alt="OSDB" />
+                                <div>
+                                    <div className="cardTitle"><h2>Aaron Rodgers</h2><h3>SOCCOR</h3></div>
+                                    <p className="cardPera">Aaron Charles Rodgers (born December 2, 1983) is an American football quarterback for the Green Bay Packers…</p>
+                                </div>
+                            </div>
+                            <div className="tpCard">
+                                <img src={TpSmall} alt="OSDB" />
+                                <div>
+                                    <div className="cardTitle"><h2>Aaron Rodgers</h2><h3>SOCCOR</h3></div>
+                                    <p className="cardPera">Aaron Charles Rodgers (born December 2, 1983) is an American football quarterback for the Green Bay Packers…</p>
+                                </div>
+                            </div>
+                            <div className="tpCard">
+                                <img src={TpSmall} alt="OSDB" />
+                                <div>
+                                    <div className="cardTitle"><h2>Aaron Rodgers</h2><h3>SOCCOR</h3></div>
+                                    <p className="cardPera">Aaron Charles Rodgers (born December 2, 1983) is an American football quarterback for the Green Bay Packers…</p>
+                                </div>
+                            </div>
                  </div>
                  </Col>
              </Row>

@@ -8,7 +8,7 @@ function BreakingNews() {
             <span>
                 <img src={BrakingNewsLogo} alt="OSDB" />
             </span>
-            <marquee>
+            <marquee> 
                     Sports news and live sports coverage of your favourite sports.
             </marquee>
      </div>   
