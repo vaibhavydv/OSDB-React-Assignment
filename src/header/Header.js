@@ -7,7 +7,7 @@ function Header() {
     return (
         <div className = "osdbMenu">
             <Link to ="/">
-                <img className="customLogo" src={logo}></img>
+                <img className="customLogo" src={logo} alt="OSDB"></img>
             </Link>
             <div className="osdbSearch">
                 <span><i class ="fa fa-search"></i></span> <input type="text" name="name" placeholder="Search OSDB Players and News"/>
