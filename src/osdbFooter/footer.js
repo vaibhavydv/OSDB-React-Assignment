@@ -8,9 +8,11 @@ import FooterLogo from '../assets/images/logoFooter.svg'
 import NewsLetter from '../assets/images/news_ltr.png'
 import PlayStore from '../assets/images/play_store.png'
 import AppStore from '../assets/images/app_store.png'
+import FooterStrip from './footerStrip'
 
 function Footer() {
     return (
+     <>   
      <div className="osdbFooter">
         <Container>
             <Row>
@@ -44,6 +46,8 @@ function Footer() {
             </Row>
         </Container>
      </div>
+    <FooterStrip />
+     </>
     );
 }
 export default Footer; 

@@ -54,9 +54,6 @@ padding-top: 57px;
 .fa{
     font-size: 22px;
 }
-/* .quickLinks ul li {
-	float: right;
-} */
 .followOSDB ul li a {
     text-decoration: none;
     color: #FFFFFF;
@@ -81,4 +78,32 @@ padding-top: 57px;
 .osdbApp img{
     margin-left: 128px;
     margin-top: 10px;
+}
+.footerStrip{
+    height: 51px;
+    background-color: #201F1F;
+}
+.footerStrip p {
+    margin-top: 17px;
+    color: #FFFFFF;
+    font-family: Lato;
+    font-size: 14px;
+    line-height: 17px;
+}
+.footerStrip ul {
+	list-style-type: none;
+    overflow: hidden;
+    margin-top: 15px;
+    margin-right: -13%;
+}
+.footerStrip ul li {
+    float: right;
+    padding-right: 25px;
+}
+.footerStrip ul li a {
+	color: #ffffff;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: Lato;
 }
