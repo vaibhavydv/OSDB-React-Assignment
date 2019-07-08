@@ -29,6 +29,7 @@
     margin-left: 8.07%;
     font-size: 40px;
     padding: 4px 0px 0px 18px;
+    z-index: 1;
 }
 .rightButton{
     position: absolute;
@@ -41,4 +42,19 @@
     margin-left: 87.81%;
     font-size: 40px;
     padding: 4px 0px 0px 18px;
+    z-index: 1;
+}
+.left{
+    position: absolute;
+    margin-left: 0px;
+    width: 10.16%;
+    margin-top: -19.6%;
+    z-index: 0;
+}
+.right{
+    position: absolute;
+    margin-left: 0px;
+    width: 10.16%;
+    margin-top: -19.6%;
+    z-index: 0;
 }
