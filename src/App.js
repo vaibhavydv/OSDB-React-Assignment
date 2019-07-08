@@ -5,15 +5,17 @@ import TrendingPlayers from './homepage/trending-players/trendingPlayers';
 import FactOfTheDay from './homepage/fact-otd/factOfTheDay';
 import Footer from './osdbFooter/footer';
 import NewsOsdb from './homepage/trending-news/trendingNews';
+import HomeVideos from './homepage/videos/videos';
 function App() {
   return (
     <>
-    <Header/>
+    {/* <Header/>
     <BreakingNews/>
-    {/* <TrendingPlayers /> */}
+    <TrendingPlayers />
     <FactOfTheDay /> 
-    <NewsOsdb />
-    <Footer />
+    <NewsOsdb /> */}
+    <HomeVideos />
+    {/* <Footer /> */}
     </>
   );
 }
