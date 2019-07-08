@@ -16,7 +16,7 @@
 .videoList img{
     margin-left: 23.23%;
     width: 53.54%;
-    margin-top: -26%;
+    margin-top: -25%;
 }
 .leftButton{
     position: absolute;
@@ -27,6 +27,18 @@
     background-color: #FFFFFF;
     margin-top: -13%;
     margin-left: 8.07%;
+    font-size: 40px;
+    padding: 4px 0px 0px 18px;
+}
+.rightButton{
+    position: absolute;
+    width: 80px;
+    color: #6849D7;
+    height: 80px;
+    border: 1px solid #6849D7;
+    background-color: #FFFFFF;
+    margin-top: -13%;
+    margin-left: 87.81%;
     font-size: 40px;
     padding: 4px 0px 0px 18px;
 }
