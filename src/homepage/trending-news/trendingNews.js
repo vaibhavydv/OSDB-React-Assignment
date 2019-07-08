@@ -20,7 +20,7 @@ function NewsOsdb() {
                       <div>
                           <img src={TnBig} alt="OSDB"></img>
                       </div>
-                      <div className="tnCover">
+                            <div className="tnCover tpOne">
                          <h1>It sounded like Aaron Rodgers was returning</h1>
                         <div className="tnInfo">
                         <p>11:30PM</p><p className="tnDate">27 MAY 2019</p><Link to="" className="tnRm">READ MORE &rarr;</Link>

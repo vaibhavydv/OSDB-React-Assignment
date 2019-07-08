@@ -1,7 +1,7 @@
 .videoHead{
     color: #6849D7;
     font-family: Lato;
-    font-size: 35px;
+    font-size: 26px;
     font-weight: bold;
     text-align: center;
 }
@@ -46,7 +46,6 @@
 .left{
     position: absolute;
     margin-top: 90px;
-    background-color: #ff00ff;
     height: 250px;
     width: 150px;
     overflow-x: hidden;
@@ -55,7 +54,6 @@
 .right{
     float: right;
     margin-top: 90px;
-    background-color: #ff00ff;
     width: 150px;
     height: 250px;
     overflow-x: hidden;
@@ -72,7 +70,7 @@
 }
 .playButton{
     position: absolute;
-    margin-top: 210px;
+    margin-top: 190px;
     margin-left: 44%;
     z-index: 1;
 }

@@ -9,14 +9,15 @@ import './videosStyle.css';
 function HomeVideos() {
     return (
         <>
+        <br />
         <div className="strip"></div>
         <div className="leftButton">&larr;</div>
         <div className="rightButton">&rarr;</div>
-        <div className="playButton"><img src={PlayVideo}/></div>
+        <div className="playButton"><img src={PlayVideo} alt="OSDB"/></div>
         <h1 className="videoHead">VIDEOS</h1>  
         <div>
             <div className="left" >
-                <img src={VideoLeft}/>
+                <img src={VideoLeft} alt="OSDB"/>
             </div>
             <div className="videoMain">
                 <div>
@@ -35,7 +36,7 @@ function HomeVideos() {
                     </div>
             </div>
             <div className="right">
-                <img src={VideoRight}/>
+                <img src={VideoRight} alt="OSDB"/>
             </div>
         </div>
         </>

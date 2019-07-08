@@ -25,7 +25,7 @@
     z-index: 1;
     color: #6849D7;
 	margin-top: 10px;
-	margin-left: 12.21px;
+	margin-left: 11.21px;
 }
 .osdbSearch input {
 	border: 0px;
@@ -49,9 +49,10 @@
    color: #6849D7;
 }
 .osdbNav{
-	position: absolute;
+    position: inherit;
+    float: right;
     margin-top: 31px;
-    margin-left: 423px;
+    margin-right: 10%;
     display: inline-flex;
     
 }
@@ -66,7 +67,7 @@
 }
 .osdbNav ul li a {
 	color: #ffffff;
-    padding: 0 5px;
+    padding: 0 14px;
 	text-decoration: none;
 	font-family: lato;
     font-size: 16px;

@@ -9,13 +9,13 @@ import HomeVideos from './homepage/videos/videos';
 function App() {
   return (
     <>
-    {/* <Header/>
+    <Header/>
     <BreakingNews/>
     <TrendingPlayers />
-    <FactOfTheDay /> 
-    <NewsOsdb /> */}
+    <FactOfTheDay />
+    <NewsOsdb />
     <HomeVideos />
-    {/* <Footer /> */}
+    <Footer />
     </>
   );
 }

@@ -14,12 +14,10 @@ function Header() {
             </div>
             <div className="osdbNav">
             <ul>
-                <li><Link to="/">NFL</Link></li>
-                <li><Link to="/">NBA</Link></li>
-                <li><Link to="/">NHL</Link></li>
+                <li><Link to="/page-one">NFL</Link></li>
+                <li><Link to="/page-two">NBA</Link></li>
                 <li><Link to="/">+</Link></li>
-                <li><Link to="/">NEWS</Link></li>
-                <li><Link to="/">COMPARISON TOOL</Link></li>
+                <li><Link to="/">NHL</Link></li>
                 <li><Link to="/">VIDEOS</Link></li>
             </ul>
             <ul>
