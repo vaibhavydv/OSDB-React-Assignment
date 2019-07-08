@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="221px" height="221px" viewBox="0 0 221 221" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 54.1 (76490) - https://sketchapp.com -->
+    <title>D198DFD1-EE89-4F18-9A27-F11CB21A23C0</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <linearGradient x1="50%" y1="106.501831%" x2="50%" y2="23.0232775%" id="linearGradient-1">
+            <stop stop-color="#6849D7" offset="0%"></stop>
+            <stop stop-color="#896DEF" offset="100%"></stop>
+        </linearGradient>
+        <circle id="path-2" cx="44.9454533" cy="44.9454533" r="44.9454533"></circle>
+        <filter x="-127.4%" y="-102.9%" width="354.8%" height="354.8%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="22" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="34.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.407843137   0 0 0 0 0.28627451   0 0 0 0 0.843137255  0 0 0 0.476109601 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <polygon id="path-4" points="0 0 0 33.70909 25.2818175 16.854545"></polygon>
+    </defs>
+    <g id="approved-✅" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home-Page-V2" transform="translate(-850.000000, -3699.000000)">
+            <g id="Group-2" transform="translate(915.000000, 3743.000000)">
+                <g id="Oval-5">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <g id="ic_play_arrow_24px" transform="translate(36.518181, 28.090908)">
+                    <mask id="mask-5" fill="white">
+                        <use xlink:href="#path-4"></use>
+                    </mask>
+                    <use id="Shape" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-4"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

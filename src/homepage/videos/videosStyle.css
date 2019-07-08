@@ -1,0 +1,60 @@
+.videoHead{
+    color: #6849D7;
+    font-family: Lato;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: center;
+}
+.strip{
+    margin-top: 150px;
+    margin-left: 19.53%;
+    height: 336px;
+    width: 60.99%;
+    background-color: #6849D7;
+}
+.videoList img{
+    margin-left: 23.23%;
+    width: 53.54%;
+    margin-top: -25%;
+}
+.leftButton{
+    position: absolute;
+    width: 80px;
+    color: #6849D7;
+    height: 80px;
+    border: 1px solid #6849D7;
+    background-color: #FFFFFF;
+    margin-top: -13%;
+    margin-left: 8.07%;
+    font-size: 40px;
+    padding: 4px 0px 0px 18px;
+    z-index: 1;
+}
+.rightButton{
+    position: absolute;
+    width: 80px;
+    color: #6849D7;
+    height: 80px;
+    border: 1px solid #6849D7;
+    background-color: #FFFFFF;
+    margin-top: -13%;
+    margin-left: 87.81%;
+    font-size: 40px;
+    padding: 4px 0px 0px 18px;
+    z-index: 1;
+}
+.left{
+    position: absolute;
+    margin-left: -5%;
+    width: 20%;
+    margin-top: -14.6%;
+    z-index: 0;
+}
+.right{
+    position: absolute;
+    margin-left: 85%;
+    width: 20%;
+    margin-top: -19.6%;
+    z-index: 0;
+}
