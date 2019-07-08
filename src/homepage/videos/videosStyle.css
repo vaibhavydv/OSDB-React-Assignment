@@ -53,8 +53,8 @@
 }
 .right{
     position: absolute;
-    margin-left: 0px;
-    width: 10.16%;
+    margin-left: 85%;
+    width: 20%;
     margin-top: -19.6%;
     z-index: 0;
 }
