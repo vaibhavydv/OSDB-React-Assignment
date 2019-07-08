@@ -1,3 +1,47 @@
 .newsclass{
+    margin-top: 150px;
     background-color: #ffffff;
+}
+.newsclass h2{
+    color: #6849D7;
+    font-family: Lato;
+    font-size: 44px;
+    font-weight: bold;
+    line-height: 52px;
+    text-align: center;
+}
+
+.backgroundTest{
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+}
+
+.newsBig{
+    padding: 0;     
+}
+
+.newsBig img{
+    margin-left: -30%;
+    height: 818px;
+    width: 729px;
+    object-fit: cover;
+
+}
+.newsSmall{
+    padding: 0;
+    margin-left: -8%;
+}
+.newsSmall img {
+    height: 399px;
+    width: 729px;
+    margin-top: 20px;
+    
+    object-fit: cover;
+}
+.newsSmall1{
+    margin-left: 18%;
+}
+.margin{
+        margin-top: 20px;
 }
