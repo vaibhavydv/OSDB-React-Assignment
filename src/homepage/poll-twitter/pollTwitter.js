@@ -20,10 +20,10 @@ function Poll() {
                         <p>Real Champions League Winner ?</p>
                     </div>
                     <div className="pollBar">
-                        <ProgressBar now={40} />
-                        <ProgressBar now={16} />
-                        <ProgressBar now={78} />
-                        <ProgressBar now={55} />
+                        <ProgressBar now={40} label="A. Real Madrid" />
+                        <ProgressBar now={89} label="B. Liverpool" />
+                        <ProgressBar now={78} label="C. Manchester United F.C." />
+                        <ProgressBar now={55} label="D. Manchester United F.C."/>
                     </div>
                 </Col>
                 <Col xs={6} md={3}>

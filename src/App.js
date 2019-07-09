@@ -10,7 +10,7 @@ import HomeVideos from './homepage/videos/videos';
 import Poll from './homepage/poll-twitter/pollTwitter';
 function App() {
   return (
-    <>
+    <>  
     <Header/>
     <BreakingNews/>
     <SocialShare/>
