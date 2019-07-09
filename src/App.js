@@ -16,7 +16,6 @@ function App() {
     <FactOfTheDay />
     <NewsOsdb />
     <HomeVideos />
-    <FactOfTheDay />
     <Poll/>
     <Footer />
     </>

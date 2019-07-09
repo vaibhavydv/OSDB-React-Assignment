@@ -1,11 +1,13 @@
 .videoHead{
     color: #6849D7;
     font-family: Lato;
-    font-size: 26px;
+    font-size: 32px;
     font-weight: bold;
     text-align: center;
 }
-
+.vdoClass{
+    margin-top: 70px;
+}
 .strip{
     position: absolute;
     margin-top: 160px;
