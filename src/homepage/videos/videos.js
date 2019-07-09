@@ -9,7 +9,7 @@ import './videosStyle.css';
 function HomeVideos() {
     return (
         <>
-        <br />
+        <div className="vdoClass">
         <div className="strip"></div>
         <div className="leftButton">&larr;</div>
         <div className="rightButton">&rarr;</div>
@@ -38,6 +38,7 @@ function HomeVideos() {
             <div className="right">
                 <img src={VideoRight} alt="OSDB"/>
             </div>
+        </div>
         </div>
         </>
            
