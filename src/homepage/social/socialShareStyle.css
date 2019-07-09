@@ -1,0 +1,25 @@
+.socialSh{
+    position: absolute;
+    background-color: #6849D7;
+    width: 61px;
+    height:185px;
+    margin-top: 340px;
+}
+.internal{
+    position: absolute;
+    margin-left: -22px;
+    margin-top: 34px;
+}
+.socialSh ul{
+    list-style-type: none;
+}
+.socialSh ul li a{
+    color: #ffffff;
+}
+.fa{
+    font-size: 30px !important;
+}
+.tw{
+    margin-top: 15px;
+    margin-bottom: 16px;
+}
