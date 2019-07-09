@@ -6,6 +6,7 @@ import FactOfTheDay from './homepage/fact-otd/factOfTheDay';
 import Footer from './osdbFooter/footer';
 import NewsOsdb from './homepage/trending-news/trendingNews';
 import HomeVideos from './homepage/videos/videos';
+import Poll from './homepage/poll-twitter/pollTwitter';
 function App() {
   return (
     <>
@@ -15,6 +16,8 @@ function App() {
     <FactOfTheDay />
     <NewsOsdb />
     <HomeVideos />
+    <FactOfTheDay />
+    <Poll/>
     <Footer />
     </>
   );
