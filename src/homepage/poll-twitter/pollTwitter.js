@@ -5,6 +5,18 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import Button from 'react-bootstrap/Button'
+import {
+    TwitterTimelineEmbed,
+    TwitterShareButton, 
+    TwitterFollowButton, 
+    TwitterHashtagButton, 
+    TwitterMentionButton, 
+    TwitterTweetEmbed, 
+    TwitterMomentShare, 
+    TwitterDMButton, 
+    TwitterVideoEmbed, 
+    TwitterOnAirButton 
+    } from 'react-twitter-embed';
 
 function Poll() {
     return (
@@ -35,9 +47,18 @@ function Poll() {
                                 <Button variant="primary">FOLLOW</Button>
                             </Col>
                         </Row>
-                    <div className="twitterContent">
-                        <p>Loading...</p>
-                    </div>
+                        <div className="twitterContent">
+                        <TwitterTimelineEmbed
+                                    sourceType="timeline"
+                                    screenName="imvaibhavyadav"
+                                    theme="light"
+                                    noHeader
+                                    noFooter
+                                    noScrollbar
+                                    noBorders
+                                    options={{height: 450}}
+                                />
+                        </div>
                     </div>
                 </Col>
             </Row>
