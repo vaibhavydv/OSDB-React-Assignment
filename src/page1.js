@@ -1,9 +1,13 @@
 import React from 'react'
+import Header from './header/Header'
 
-class pageOne extends React.Component {
-    render() {
-        return <h1><center>Page One</center></h1>
+function PageOne() {
+        return (
+            <>
+            <Header/>
+            <h1><center>Page One</center></h1>
+            </>
+        );
+       
     }
-}
-
-export default pageOne
+export default PageOne;
