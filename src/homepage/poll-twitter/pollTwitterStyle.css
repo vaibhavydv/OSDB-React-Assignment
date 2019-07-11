@@ -45,7 +45,7 @@
 }
 .progress-bar{
     margin: 3px;
-    height: 48px;
+    height: 49px;
     background-color: #6849D7;
     box-shadow: 0 2px 7px 0 rgba(0,0,0,0.11);
     text-align: left;
@@ -54,6 +54,19 @@
     font-weight: 500;
     line-height: 27px;
     padding-left: 10px;
+}
+.progressbarLabel{
+    padding-top: 8%;
+}
+.progressbarLabel img{
+    height: 35px;
+    margin: -8px 5px 0 5px;
+}
+.pbRight{
+    float: right;
+    margin-right: -150%;
+    color: #000000;
+    font-family: Lato;
 }
 .twitterMain{
     margin-left: -50%;
