@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col'
 import ProgressBar from 'react-bootstrap/ProgressBar'
 import Button from 'react-bootstrap/Button'
 import { TwitterTimelineEmbed } from 'react-twitter-embed';
+import Logo from '../../assets/images/pb_logo.png'
 
 function Poll() {
     return (
@@ -20,10 +21,10 @@ function Poll() {
                         <p>Real Champions League Winner ?</p>
                     </div>
                     <div className="pollBar">
-                        <ProgressBar now={40} label="A. Real Madrid" />
-                        <ProgressBar now={89} label="B. Liverpool" />
-                        <ProgressBar now={78} label="C. Manchester United F.C." />
-                        <ProgressBar now={55} label="D. Manchester United F.C."/>
+                        <ProgressBar now={40} label={<p className="progressbarLabel"><span>A.</span> <img src ={Logo}/><span>Real Madrid</span><span className="pbRight">40%</span></p>} />
+                        <ProgressBar now={40} label={<p className="progressbarLabel"><span>B.</span> <img src ={Logo}/><span>Liverpool</span><span className="pbRight">40%</span></p>} />
+                        <ProgressBar now={40} label={<p className="progressbarLabel"><span>C.</span> <img src ={Logo}/><span>Manchester United F.C.</span><span className="pbRight">40%</span></p>} />
+                        <ProgressBar now={40} label={<p className="progressbarLabel"><span>D.</span> <img src ={Logo}/><span>Real Madrid</span><span className="pbRight">40%</span></p>} />
                     </div>
                 </Col>
                 <Col xs={6} md={3}>
@@ -33,7 +34,7 @@ function Poll() {
                                 <h2>TWITTER</h2>
                             </Col>
                             <Col>
-                                <Button variant="primary">FOLLOW</Button>
+                                <Button href="https://twitter.com/imvaibhavyadav" variant="primary">FOLLOW</Button>
                             </Col>
                         </Row>
                         <div className="twitterContent">

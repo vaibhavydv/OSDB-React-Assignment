@@ -31,29 +31,42 @@
 }
 .pollBar{
     z-index: 2;
-    padding: 50px 0px 0px 40px;
+    padding: 50px 0px 0px 53px;
 
 }
 .progress{
     border-radius: 0;
     border: 0.5px solid #B6B6B6;
     background-color: #FFFFFF;
-    box-shadow: 0 2px 7px 0 rgba(0,0,0,0.11);
-    height: 66px;
+    box-shadow: 0 2px 7px 0 16pxrgba(0,0,0,0.11);
+    height: 55px;
     width: 82%;
     margin-top: 10px;
 }
 .progress-bar{
-    margin: 2px;
-    height: 62px;
+    margin: 3px;
+    height: 49px;
     background-color: #6849D7;
     box-shadow: 0 2px 7px 0 rgba(0,0,0,0.11);
     text-align: left;
     font-family: Lato;
-    font-size: 20px;
+    font-size: 16px;
     font-weight: 500;
     line-height: 27px;
     padding-left: 10px;
+}
+.progressbarLabel{
+    padding-top: 8%;
+}
+.progressbarLabel img{
+    height: 35px;
+    margin: -8px 5px 0 5px;
+}
+.pbRight{
+    float: right;
+    margin-right: -150%;
+    color: #000000;
+    font-family: Lato;
 }
 .twitterMain{
     margin-left: -50%;
